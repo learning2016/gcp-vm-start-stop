@@ -3,7 +3,7 @@ cron:
   url: /vm/start
   schedule: every day 07:00
   timezone: Asia/Shanghai
-  - description: stop instance
+- description: stop instance
   url: /vm/stop
   schedule: every day 00:50
   timezone: Asia/Shanghai
